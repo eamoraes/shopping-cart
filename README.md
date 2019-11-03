@@ -42,11 +42,11 @@ A API também poderá ser testada via Postman, com a collection Shopping Cart.po
 ### Estratégia adotada na solução 
 Estratégias utilizadas na criação da API REST
 
-Foi desenvolvida, utilizando o padrão REST, diversos endpoints para o consumo de uma aplicação externa. Atualmente a API conta com endpoints para o CRUD dos seguintes itens:
+Foi desenvolvido, utilizando o padrão REST, diversos endpoints para o consumo de uma aplicação externa. Atualmente a API conta com endpoints para o CRUD dos seguintes itens:
 * Cadastro de Itens
 * Cadastro de Usuários
 
-Tendo realizado o cadastro de itens e usuários é possível utilizar os endpoints para montagem do carrinho de compras, onde é possível adicionar, remover e fechar a compra.
+Tendo realizado o cadastro de itens e usuários é possível utilizar os endpoints para montagem do carrinho de compras, onde é possível adicionar item, remover item e fechar a compra.
 
 Todos endpoints retornam um objeto de resposta padrão, onde são retornados os dados, uma lista de erros caso ocorra e o respectivo código de status HTTP, em acordo com o padrão REST. Foi criada uma classe Advice para manipular alguns tipos de exceções e colocá-las nesse padrão.
 
