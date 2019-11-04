@@ -60,3 +60,6 @@ Foram feitos testes de integração para todos os endpoints, onde foram utilizad
 A documentação da API foi feita utilizando o Swagger, onde é possível ver todos os endpoints disponíveis para consumo.
 
 Para facilitar os testes da API, foi adicionado um arquivo import.sql. Neste arquivo contém o script de inserção para um usuário e dois itens.
+
+Da stak necessária para realização do teste não foi utilizado o MongoDB. Minha experiência profissional é com a utilização de banco de dados relacionais, como SQL Server, Oracle e MySQL. Foi utilizado o H2 no desenvolvimento, somente para se tornar mais fácil o teste da API, sem a necessidade de instalação de um SGBD.
+Não tenho experiência com Angular. A única biblioteca Javascript que já tive contato profissional foi com ReactJS, porém meu conhecimento é básico em aplicações Front-End, tendo atuado em minha carreira sempre como desenvolvedor Back-End.
